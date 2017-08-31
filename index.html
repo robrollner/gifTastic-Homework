@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>let's Gif physical</title>
+    <!--reset-->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <!-- bootstrap -->
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!--Style sheet  -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row" id="header">
+            <div class="col-xs-12 col-md-4"></div>
+            <div class="col-xs-12 col-md-4">
+                <h1>Let's Gif Physical!</h1>
+            </div>
+            <div class="col-xs-12 col-md-4"></div>
+        </div>
+        <br>
+        <div class="row">
+            <!-- Rendered buttons Get dumped Here -->
+            <div class="jumbotron col-xs-12 col-md-12" id="buttons-view"></div>
+        </div>
+        <div class="jumbotron row">
+            <form id="character-form">
+                <label for="character-input">Enter your favorite character!</label>
+                <input type="text" id="character-input">
+                <!-- Button triggers new character to be added -->
+                <input id="add-character" type="submit" value="Name someone!">
+            </form>
+        </div>
+        <!-- Gifs Appear Here. -->
+        <div class="row">
+            <div class="col-xs-12 col-md-12" id="gifs-appear-here">
+                <p class="image">
+                    <br>
+                    <p><h2 class="rating"></h2></p>
+                    <br>
+                </p>
+            </div>
+        </div>
+        <br>
+        <!-- Footer for Giphy -->
+        <div class="jumbotron footer row">
+            <footer>
+                <img src="https://raw.githubusercontent.com/robrollner/gifTastic/master/assets/images/Giphy%20Attribution%20Marks/Animated%20Logos/PoweredBy_200_Horizontal_Light-Backgrounds_With_Logo.gif">robrollner2017
+            </footer>
+        </div>
+    </div>
+    <!-- JavaScript link -->
+    <script type="text/javascript" src="assets/javascript/gifJavaScript.js"></script>
+</body>
+
+</html>
+<!-- adding comment for commit -->
